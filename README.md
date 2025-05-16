@@ -15,7 +15,7 @@
 | Provisioning Profiles | Connect your app, device, and certificate together to run or distribute the app. |
 ---
 ## 🛠️ How to Set Up
-##### 🔐 1. Create a Certificate (Distribution)
+#### 🔐 1. Create a Certificate (Distribution)
 You can do this using Xcode (automatic) or manually via Apple Developer Portal.
 
 ###### 🔸 Using Xcode (Recommended for simplicity)
@@ -36,12 +36,12 @@ You can do this using Xcode (automatic) or manually via Apple Developer Portal.
     - Upload the .certSigningRequest file.
     - Download the certificate (.cer) and double-click to install it in Keychain.
 
-##### 🆔 2. Create an App ID
+#### 🆔 2. Create an App ID
 1) Go to Developer Portal → Identifiers → Click ➕.
 2) Register a new App ID (Bundle ID, like com.companyname.appname).
 3) Select necessary capabilities (e.g., Push Notifications, iCloud).
 
-##### 📄 3. Create a Provisioning Profile
+#### 📄 3. Create a Provisioning Profile
 1) Go to Profiles → Click ➕.
 2) Choose App Store (for distribution) or Development (for dev/test).
 3) Select the App ID you created earlier.
@@ -49,7 +49,7 @@ You can do this using Xcode (automatic) or manually via Apple Developer Portal.
 5) Name the profile and download it.
 6) Double-click the .mobileprovision file to install it.
 
-##### 🔄 Summary Flow (Manual)
+#### 🔄 Summary Flow (Manual)
 1) ✅ Enroll in Apple Developer Program
 2) 🔐 Generate CSR → Create Certificate
 3) 🆔 Create App ID (Bundle Identifier)
